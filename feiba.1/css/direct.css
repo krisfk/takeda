@@ -8,8 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 805px;
-    display: none;
+    left: 840px;
 }
 
 .next-btn {
@@ -22,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 805px;
+    left: 885px;
 }
 
 #bar {
@@ -200,7 +199,7 @@
 
 .fadeIn {
     animation: fadeIn 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
 }
 
 .fadeIn_now {

@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 805px;
+    left: 840px;
 }
 
 .next-btn {
@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 850px;
+    left: 885px;
 }
 
 #bar {
@@ -119,27 +119,27 @@
 
 .fadeIn1 {
     animation: fadeIn 0.5s forwards;
-    animation-delay: 1s;
+    animation-delay: 0.3s;
 }
 
 .fadeIn2 {
     animation: fadeIn 0.5s forwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.6s;
 }
 
 .fadeIn3 {
     animation: fadeIn 0.5s forwards;
-    animation-delay: 2s;
+    animation-delay: 0.9s;
 }
 
 .fadeIn4 {
     animation: fadeIn 0.5s forwards;
-    animation-delay: 2.5s;
+    animation-delay: 1.2s;
 }
 
 .fadeIn5 {
     animation: fadeIn 0.5s forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 
 .barDown {

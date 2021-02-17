@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 805px;
+    left: 840px;
 }
 
 .next-btn {
@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 850px;
+    left: 885px;
 }
 
 #bar {
@@ -202,8 +202,8 @@
 }
 
 .arrowMoveDown {
-    animation: arrowMoveDown 1.5s forwards;
-    animation-delay: 3s;
+    animation: arrowMoveDown 1s forwards;
+    animation-delay: 1.5s;
 }
 
 @keyframes arrowMoveDown {
@@ -248,8 +248,8 @@
 }
 
 .fadeIn {
-    animation: fadeIn 1.5s forwards;
-    animation-delay: 2.5s;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1.2s;
 }
 
 .fadeIn2 {
@@ -263,13 +263,13 @@
 }
 
 .barDown {
-    animation: barChange 2s forwards;
+    animation: barChange 1s forwards;
     animation-delay: 1s;
 }
 
 .barUp {
-    animation: barChange 2s forwards;
-    animation-delay: 1s;
+    animation: barChange 1s forwards;
+    animation-delay: 0.3s;
 }
 
 #bar,

@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 805px;
+    left: 840px;
 }
 
 .next-btn {
@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 850px;
+    left: 885px;
 }
 
 #bar1a {
@@ -276,13 +276,13 @@
 }
 
 .fadeIn {
-    animation: fadeIn 1.5s forwards;
-    animation-delay: 2.5s;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
 
 .fadeIn2 {
-    animation: fadeIn 1.5s forwards;
-    animation-delay: 3.5s;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
 }
 
 .fadeIn_now {
@@ -296,13 +296,13 @@
 }
 
 .barUp {
-    animation: barChange 2s forwards;
-    animation-delay: 1s;
+    animation: barChange 1s forwards;
+    animation-delay: 0.3s;
 }
 
 .barUp2 {
-    animation: barChange 2s forwards;
-    animation-delay: 3s;
+    animation: barChange 1s forwards;
+    animation-delay: 1.3s;
 }
 
 #bar,

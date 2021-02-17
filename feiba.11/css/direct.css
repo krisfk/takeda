@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 805px;
+    left: 840px;
 }
 
 .next-btn {
@@ -21,7 +21,59 @@
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 7px;
-    left: 850px;
+    left: 885px;
+}
+
+#piece1 {
+    background: url(../images/piece-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130px;
+    left: 197px;
+    width: 130px;
+    top: 310px;
+    opacity: 0;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.3s;
+}
+
+#piece2 {
+    background: url(../images/piece-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130px;
+    left: 441px;
+    width: 130px;
+    top: 310px;
+    opacity: 0;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.4s;
+}
+
+#piece3 {
+    background: url(../images/piece-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130px;
+    left: 693px;
+    width: 130px;
+    top: 310px;
+    opacity: 0;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.5s;
+}
+
+#piece4 {
+    position: absolute;
+    width: 671px;
+    bottom: 230px;
+    opacity: 0;
+    left: 176px;
+    animation: fadeInUp 0.5s forwards;
+    animation-delay: 0.4s;
 }
 
 #bar {
