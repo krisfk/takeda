@@ -1,0 +1,188 @@
+/* 
+ * avModal Theme (for avModal jQuery Plugin v1.0)
+ * Theme name: avModal
+ * 
+ * Author: Juan Carlos Rojas
+ * Email: juan.c.rojas.vargas@accenture.com
+ * Creation date: June, 2013
+ * Copyright (c) 2013 Accenture
+ * 
+ * Last update: June 06, 2013 <juan.c.rojas.vargas>
+ * 
+ */
+
+.avReferencesWrapper{
+	border: none;
+	position: absolute;
+	background: #fff;
+	left: 0;
+	top: 0;
+	left: 50%;
+	top: 50%;
+	margin-left: 0;
+	margin-top: 0;
+	box-shadow: 0px 0px 15px #8D8D8D;
+	/* border: solid 2px #B40937; */
+	border-radius: 17px;
+}
+	.avReferencesWrapper:before{
+		content: 'References';
+		color: #585858;
+		/* background: #B40937; */
+		font-size: 19px;
+		line-height: 30px;
+		padding: 7px 0;
+		text-indent: 32px;
+		position: fixed;
+		left: 8px;
+		right: 0;
+		top: 24px;
+		position: absolute;
+		padding-bottom: 11px;
+		font-family: "HelveticaNeue-Bold";
+		width: 923px;
+	}
+	.avReferencesCloseButton{
+		height: 24px;
+		width: 24px;
+		background-image: url(../img/close.png);
+		background-size: 100% 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 12px;
+		top: 12px;
+		cursor: pointer;
+	}
+	.avReferencesContent{
+		overflow: auto;
+		-webkit-overflow-scrolling: touch; /* for custom scrollbars remove/comment this property*/
+		padding: 5px;
+		margin: 5px;
+		margin-top: 69px;
+		margin-bottom: 30px;
+		font-size: 17px;
+		line-height: 21px;
+		color: #58595A;
+		margin-left: 19px !important;
+		margin-top: 66px !important;
+		height: 475px !important;
+		width: 879px !important;
+	}
+		.avReferencesContent ul.numericList{
+			margin-left: 27px;
+		}
+		.avReferencesContent::-webkit-scrollbar{
+		    width: 20px;
+		}
+		 
+		.avReferencesContent::-webkit-scrollbar-track{
+		    border-radius: 10px;
+		    background: rgb(231,231,232);
+		}
+		 
+		.avReferencesContent::-webkit-scrollbar-thumb{
+		    border-radius: 10px !important;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+			background: url(../img/slider.png) no-repeat;
+			height: 200px;
+			background-size: 20px 216px;
+		}
+	.avReferencesOverlay{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 98.5%;
+		background: #fff;
+	}
+	.avModalContainer{
+		display: none;
+	}
+
+
+
+/*Definitions*/
+.avAbbreviationsWrapper{
+	border: none;
+	position: absolute;
+	background: #fff;
+	left: 0;
+	top: 0;
+	left: 50%;
+	top: 50%;
+	margin-left: 0;
+	margin-top: 0;
+	box-shadow: 0px 5px 8px 3px #EBEBEB;
+	/* border: solid 2px #B40937; */
+	border-radius: 10px;
+}
+	.avAbbreviationsWrapper:before{
+		content: 'Abbreviations';
+		color: #4D7235;
+		/* background: #B40937; */
+		font-size: 19px;
+		line-height: 30px;
+		padding: 7px 0;
+		text-indent: 32px;
+		position: fixed;
+		left: -12px;
+		right: 0;
+		top: 30px;
+		position: absolute;
+		padding-bottom: 11px;
+		font-family: "HelveticaNeue-Bold";
+		width: 923px;
+	}
+	.avAbbreviationsCloseButton{
+		height: 24px;
+		width: 24px;
+		background-image: url(../img/close.png);
+		background-size: 100% 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 4px;
+		top: 4px;
+		cursor: pointer;
+	}
+	/*.avAbbreviationsContent{
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;  for custom scrollbars remove/comment this property
+		padding: 5px;
+		margin: 5px;
+		margin-top: 69px;
+		margin-bottom: 30px;
+		font-size: 17px;
+		line-height: 21px;
+		color: #58595A;
+		margin-left: 36px;
+	}*/
+		/*.avAbbreviationsContent ul.numericList{
+			margin-left: 27px;
+		}
+		.avAbbreviationsContent::-webkit-scrollbar{
+		    width: 12px;
+		}
+		 
+		.avAbbreviationsContent::-webkit-scrollbar-track{
+		    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+		    border-radius: 10px;
+		}
+		 
+		.avAbbreviationsContent::-webkit-scrollbar-thumb{
+		    border-radius: 10px  !important;
+		    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+		    background: #c60c30;
+		}*/
+	.avAbbreviationsOverlay{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 98.1%;
+		background: #fff;
+	}
+	.avModalContainer{
+		display: none;
+	}

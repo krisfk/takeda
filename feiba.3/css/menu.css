@@ -1,0 +1,39 @@
+#menu01{
+    width: 195px;
+    height: 40px;
+    left: 0px;
+    top: 64px;
+    position: absolute;
+}
+
+#menu02{
+    width: 195px;
+    height: 40px;
+    left: 198px;
+    top: 64px;
+    position: absolute;
+}
+
+#menu03{
+    width: 195px;
+    height: 40px;
+    left: 396px;
+    top: 64px;
+    position: absolute;
+}
+
+#menu04{
+    width: 195px;
+    height: 40px;
+    left: 593px;
+    top: 64px;
+    position: absolute;
+}
+
+#menu05{
+    width: 195px;
+    height: 40px;
+    left: 793px;
+    top: 64px;
+    position: absolute;
+}

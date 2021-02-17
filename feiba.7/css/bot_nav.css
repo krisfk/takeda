@@ -1,0 +1,120 @@
+.board{
+    background: url(../images/board.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+}
+
+.closeBtn{
+    width: 50px;
+    height: 50px;
+    left: 2021px;
+    top: 288px;
+    position: absolute;
+}
+
+#menu_btn{
+    width: 105px;
+    height: 45px;
+    left: 160px;
+    top: 722px;
+    position: absolute;
+}
+
+
+
+#definitions_btn{
+    width: 105px;
+    height: 45px;
+    left: 265px;
+    top: 722px;
+    position: absolute;
+}
+
+#definitions_word{
+    left: 80px;
+    top: 170px;
+    max-height: 500px;
+    position: absolute;
+}
+
+#prescribing_btn{
+    width: 315px;
+    height: 45px;
+    left: 365px;
+    top: 722px;
+    position: absolute;
+}
+
+#safety_info_btn{
+    width: 315px;
+    height: 45px;
+    left: 680px;
+    top: 722px;
+    position: absolute;
+}
+
+#safety_info_word{
+    left: 90px;
+    top: 120px;
+    max-height: 460px;
+    position: absolute;
+    overflow: auto;
+}
+
+#menu_01{
+    width: 150;
+    height: 120px;
+    left: 50px;
+    top: 90px;
+    position: absolute;
+}
+
+#menu_02{
+    width: 150;
+    height: 120px;
+    left: 243px;
+    top: 90px;
+    position: absolute;
+}
+
+#menu_03{
+    width: 150;
+    height: 120px;
+    left: 440px;
+    top: 90px;
+    position: absolute;
+}
+
+#menu_04{
+    width: 150;
+    height: 120px;
+    left: 632px;
+    top: 90px;
+    position: absolute;
+}
+
+#menu_05{
+    width: 150;
+    height: 120px;
+    left: 823px;
+    top: 90px;
+    position: absolute;
+}
+
+#menu_06{
+    width: 150;
+    height: 120px;
+    left: 50px;
+    top: 240px;
+    position: absolute;
+}
+
+#menu_07{
+    width: 150;
+    height: 120px;
+    left: 243px;
+    top: 240px;
+    position: absolute;
+}

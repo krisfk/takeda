@@ -1,0 +1,299 @@
+/*Global*/
+#contentWrapper{
+	background: url("../img/bg.png") no-repeat;	
+	background-size: 100% 100%;
+	/* top: 0; */
+	/* left: -19px; */
+}
+/***********************Body Content*******************************/
+
+nav ul li:nth-child(4) {
+	text-indent: 13px;
+}
+
+
+.noxafileChoice{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
+.studyPos01{
+	position: absolute;
+	top: 327px;
+	left: -5px;
+}
+
+
+
+#avModal_equivalentContent{
+	background: url(../img/popImg.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	box-shadow: none;
+}
+
+
+
+
+
+
+.shadow{
+	position: absolute;
+	top: 376px;
+	left: -38px;
+	background: url(../img/shadow.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 1102px;
+	height: 67px;
+	opacity: 0.7;
+}
+
+.shadow01{
+	position: absolute;
+	top: 154px;
+	left: -38px;
+	background: url(../img/shadow.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 1102px;
+	height: 67px;
+	opacity: 0.8;
+}
+
+.shadow02{
+	position: absolute;
+	top: 161px;
+	left: -38px;
+	background: url(../img/shadow.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 1102px;
+	height: 67px;
+	opacity: 0.7;
+	display: none;
+}
+
+
+.relative{
+	position: absolute;
+	top: 450px;
+	left: 718px;
+	font-size: 10px;
+	color: #585858;
+}
+
+.noxafileText{
+	position: absolute;
+	top: 449px;
+	left: 247px;
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	background-size: #ddd;
+	color: #000;
+}
+
+
+.animChart{
+	position: absolute;
+	top: 178px;
+	left: 233px;
+	background: url(../img/animChart.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 444px;
+	height: 268px;
+	/* opacity: 0.7; */
+}
+
+.greenArea{
+	position: absolute;
+	top: 266px;
+	left: 345px;
+	overflow: hidden;
+	height: 172px;
+	width: 120px;
+	/* background:red; */
+}
+
+.greyArea{
+	position: absolute;
+	top: 207px;
+	left: 523px;
+	overflow: hidden;
+	height: 231px;
+	width: 110px;
+	/* background: red; */
+}
+
+.greenBar{
+	background: url(../img/greenBar.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 99px;
+	height: 172px;
+	left: 0px;
+	top: 174px;
+	position: relative;
+
+}
+
+.greyBar{
+	background: url(../img/greyBar.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 99px;
+	height: 231px;
+	top: 232px;
+	position: relative;
+}
+
+.noxafileOral{
+	position: absolute;
+	top: 449px;
+	left: 424px;
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	/* background: #ddd; */
+	color: #000;
+}
+
+.arrow27{
+	position:absolute;
+	background: url(../img/27Arrow.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 71px;
+	height: 55px;
+	top: 200px;
+	left: 354px;
+	display: none;
+}
+
+.pNote{
+	position: absolute;
+	top: 180px;
+	left: 297px;
+}
+
+.num16persent{
+	position: absolute;
+	top: 282px;
+	left: 362px;
+	text-align: center;
+	z-index: 2;
+}
+
+.dv49 {
+	top: -3px;
+	position: relative;
+	left: 0px;
+}
+
+.sup16pers{
+	position:relative;
+	top: -5px;
+	font-size: 15px;
+	left: 2px;
+}
+
+
+.num22persent{
+	position: absolute;
+	top: 223px;
+	left: 539px;
+	text-align: center;
+	z-index: 2;
+}
+
+.dv67 {
+	top: -3px;
+	position: relative;
+	left: 1px;
+}
+
+.sup22pers{
+	position:relative;
+	top: -5px;
+	font-size: 15px;
+	left: 2px;
+}
+
+.partici{
+	position:relative;
+	top: 1px;
+	line-height: 23px;
+}
+
+#avModal_equivalentContentClose{
+	top: 23px;
+	right: 26px;
+}
+
+.textShowAll{
+	display: none;
+}
+
+.blueBoxBorder{
+	width: 929px;
+	height: 205px;
+	position: absolute;
+	top: 373px;
+	left: -1px;
+	border: 1px solid #00aeef;
+}
+
+.allSup01{
+	position: relative;
+	top: -7px;
+	font-size: 10px;
+	left: 1px;
+}
+
+.relatSup{
+	position: absolute;
+	top: -1px;
+}
+
+.primaryEnd{
+	position: relative;
+	top: -2px;
+}
+
+.eightSeven{
+	position: relative;
+	top: -2px;
+	line-height: 18px;
+}
+
+.durationOf{
+	position: relative;
+	top: -2px;
+}
+
+.studyPop {
+	margin-top: 46px;
+	margin-left: 40px;
+	line-height: 23px;
+}
+.studySup{
+	position: relative;
+	top: -7px;
+}
+
+.studyTitle {
+	left: 40px;
+}
+

@@ -1,0 +1,244 @@
+.prev-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background: url(../images/prev-btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 7px;
+    left: 805px;
+    display: none;
+}
+
+.next-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background: url(../images/next-btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 7px;
+    left: 805px;
+}
+
+#bar {
+    background: url(../images/bar.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleY(0);
+    /* Key to change direction */
+    transform-origin: bottom;
+    width: 107px;
+    height: 175px;
+    left: 172px;
+    top: 281px;
+    position: absolute;
+}
+
+#btn_p1 {
+    width: 125px;
+    height: 50px;
+    left: -11px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p2 {
+    width: 115px;
+    height: 50px;
+    left: 112px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p3 {
+    width: 105px;
+    height: 50px;
+    left: 227px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p4 {
+    width: 97px;
+    height: 50px;
+    left: 330px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p5 {
+    width: 96px;
+    height: 50px;
+    left: 426px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p6 {
+    width: 95px;
+    height: 50px;
+    left: 521px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p7 {
+    width: 59px;
+    height: 50px;
+    left: 613px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#btn_p8 {
+    width: 114px;
+    height: 50px;
+    left: 672px;
+    top: 718px;
+    position: absolute;
+    z-index: 5;
+    transform: skew(22deg, 0deg);
+}
+
+#bar2 {
+    background: url(../images/bar.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleY(0);
+    /* Key to change direction */
+    transform-origin: bottom;
+    width: 107px;
+    height: 175px;
+    left: 709px;
+    top: 281px;
+    position: absolute;
+}
+
+#word {
+    background: url(../images/word.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
+#drop-arrow {
+    background: url(../images/drop-arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+    z-index: -100;
+}
+
+.arrowMoveDown {
+    animation: arrowMoveDown 1.5s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes arrowMoveDown {
+    from {
+        top: -10px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+#barTable {
+    background: url(../images/chart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#picture {
+    background: url(../images/picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sticker {
+    background: url(../images/sticker.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
+#number {
+    background: url(../images/number.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
+.fadeIn {
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
+}
+
+.fadeIn_now {
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1s;
+}
+
+.barDown {
+    animation: barChange 2s forwards;
+    animation-delay: 1s;
+}
+
+.barUp {
+    animation: barChange 2s forwards;
+    animation-delay: 1s;
+}
+
+#bar,
+#number {
+    animation-timing-function: ease;
+}
+
+@keyframes barChange {
+    from {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
