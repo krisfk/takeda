@@ -199,7 +199,7 @@
 
 .fadeIn {
     animation: fadeIn 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
 }
 
 .fadeIn2 {
@@ -225,6 +225,76 @@
 #bar,
 #number {
     animation-timing-function: ease;
+}
+
+#icon-1 {
+    width: 68px;
+    /* height: 50px; */
+    left: 77px;
+    top: 222px;
+    position: absolute;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+}
+
+#icon-2 {
+    opacity: 0;
+    width: 82px;
+    /* height: 50px; */
+    left: 254px;
+    top: 212px;
+    position: absolute;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.5s;
+}
+
+#icon-3 {
+    opacity: 0;
+    width: 65px;
+    /* height: 50px; */
+    left: 443px;
+    top: 232px;
+    position: absolute;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.6s;
+}
+
+#icon-txt {
+    width: 508px;
+    /* height: 50px; */
+    left: 44px;
+    bottom: 361px;
+    position: absolute;
+    animation: fadeInUp2 0.5s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeInUp2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
 }
 
 @keyframes barChange {

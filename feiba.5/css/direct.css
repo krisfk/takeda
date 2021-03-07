@@ -142,6 +142,14 @@
     opacity: 0;
 }
 
+#word {
+    background: url(../images/line-two.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
 @keyframes arrowMoveDown {
     from {
         top: -10px;
@@ -183,9 +191,41 @@
     opacity: 0;
 }
 
+#tick-1 {
+    position: absolute;
+    width: 81px;
+    bottom: 370px;
+    opacity: 0;
+    left: 276px;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.3s;
+}
+
+#tick-2 {
+    position: absolute;
+    width: 81px;
+    bottom: 370px;
+    opacity: 0;
+    left: 677px;
+    animation: bounceIn 1.2s forwards;
+    animation-delay: 0.4s;
+}
+
+#main-txt {
+    position: absolute;
+    width: 653px;
+    bottom: 177px;
+    opacity: 0;
+    left: 188px;
+    animation: fadeInUp 0.5s forwards;
+    animation-delay: 0.5s;
+    /* animation: bounceIn 1.2s forwards;
+    animation-delay: 0.4s; */
+}
+
 .fadeIn {
     animation: fadeIn 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
 }
 
 .fadeIn2 {
