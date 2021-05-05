@@ -269,6 +269,14 @@ body {
     animation-timing-function: ease;
 }
 
+.code {
+    position: absolute;
+    font-size: 12px;
+    transform: rotate(-90deg);
+    right: -70px;
+    top: 480px;
+}
+
 @keyframes moveRight {
     from {
         left: -900px;
