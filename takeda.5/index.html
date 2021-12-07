@@ -19,12 +19,14 @@
 </head>
 
 <body>
+    <!-- <style type="text/css"> -->
+    <!-- </style> -->
     <!-- feiba.7 -->
     <div class="container">
         <div class="bg size1024" id="page"></div>
 
         <div class="viewer">
-            <model-viewer loading="eager" style="
+            <model-viewer style="
             width: 650px;
             height: 650px;
             margin: 55px auto 0 auto;
@@ -110,13 +112,7 @@
     <script src="js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 
     <script>
-        window.onload = (function() {
-            alert(7);
-            // Func1();
-            // Func2();
-            // Func3();
-            // .....
-        })(function() {
+        (function() {
             setTimeout(gifOut, 1000);
 
             $('.scroll_list').mCustomScrollbar('destroy');

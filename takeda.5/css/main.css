@@ -1,3 +1,7 @@
+--poster-color {
+    color: transparent;
+}
+
 .container {
     position: relative;
     width: 1024px;
