@@ -368,3 +368,13 @@
     left: 1px;
     bottom: 360px;
 }
+
+.view-3d-btn {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    left: 1px;
+    bottom: 360px;
+}
