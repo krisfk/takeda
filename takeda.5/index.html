@@ -110,7 +110,13 @@
     <script src="js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 
     <script>
-        (function() {
+        window.onload = (function() {
+            alert(7);
+            // Func1();
+            // Func2();
+            // Func3();
+            // .....
+        })(function() {
             setTimeout(gifOut, 1000);
 
             $('.scroll_list').mCustomScrollbar('destroy');
