@@ -372,9 +372,10 @@
 .view-3d-btn {
     position: absolute;
     display: block;
-    width: 48px;
-    height: 48px;
+    width: 161px;
+    height: 59px;
     z-index: 1000;
-    left: 1px;
-    bottom: 360px;
+    right: 1px;
+    /* border: 1px solid; */
+    bottom: 459px;
 }
