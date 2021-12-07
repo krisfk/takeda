@@ -1,4 +1,4 @@
-.prev-btn {
+/* .prev-btn {
     display: block;
     width: 35px;
     height: 35px;
@@ -9,7 +9,7 @@
     background-size: contain;
     bottom: 7px;
     left: 840px;
-}
+} */
 
 
 /* 
@@ -342,6 +342,17 @@
 }
 
 .next-btn {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    right: 1px;
+    bottom: 360px;
+    /* border: 1px solid; */
+}
+
+.prev-btn {
     position: absolute;
     display: block;
     width: 48px;
