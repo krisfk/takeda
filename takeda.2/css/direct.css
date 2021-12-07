@@ -11,6 +11,8 @@
     left: 840px;
 }
 
+
+/* 
 .next-btn {
     display: block;
     width: 35px;
@@ -22,7 +24,7 @@
     background-size: contain;
     bottom: 7px;
     left: 885px;
-}
+} */
 
 #bar {
     background: url(../images/bar.png);
