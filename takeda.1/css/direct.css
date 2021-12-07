@@ -364,11 +364,11 @@
 .home-btn {
     position: absolute;
     display: block;
-    width: 169px;
+    width: 48px;
     height: 48px;
     /* background: #000; */
     z-index: 1000;
-    right: 31px;
-    bottom: 135px;
-    /* border: 1px solid; */
+    left: 14px;
+    /* bottom: 11px; */
+    border: 1px solid;
 }
