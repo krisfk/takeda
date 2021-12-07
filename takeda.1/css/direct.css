@@ -360,3 +360,7 @@
         opacity: 1;
     }
 }
+
+.home-btn {
+    position: absolute;
+}
