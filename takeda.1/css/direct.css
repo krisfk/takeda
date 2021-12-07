@@ -363,4 +363,12 @@
 
 .home-btn {
     position: absolute;
+    display: block;
+    width: 169px;
+    height: 48px;
+    /* background: #000; */
+    z-index: 1000;
+    right: 31px;
+    bottom: 135px;
+    /* border: 1px solid; */
 }
