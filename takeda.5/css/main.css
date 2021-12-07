@@ -1,5 +1,9 @@
---poster-color {
+/* --poster-color {
     color: transparent;
+} */
+
+model-viewer {
+    --poster-color: transparent;
 }
 
 .container {
