@@ -1,4 +1,4 @@
-.prev-btn {
+/* .prev-btn {
     display: block;
     width: 35px;
     height: 35px;
@@ -22,7 +22,7 @@
     background-size: contain;
     bottom: 7px;
     left: 885px;
-}
+} */
 
 #bar {
     background: url(../images/bar.png);
@@ -336,4 +336,14 @@
     to {
         opacity: 1;
     }
+}
+
+.prev-btn {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    left: 1px;
+    bottom: 360px;
 }
